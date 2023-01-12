@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration</title>
+</head>
+<style>
+    .m-20 {
+        margin: 20px;
+    }
+
+    .auto {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .clr-red {
+        color: red;
+    }
+
+    form {
+        background-color: azure;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Register For Our College</h1>
+        <form>
+            <div class="auto">
+                <div>
+                    <div class="m-20">
+                        <label for="first">First Name:<span class="clr-red">*</span></label>
+                        <input type="text" name="first" placeholder="" required>
+                    </div>
+                    <div class="m-20">
+                        <label for="first">Last Name:</label>
+                        <input type="text" name="last">
+                    </div>
+                </div>
+                <div>
+                    <div class="m-20">
+                        <label for="mail">Email:</label>
+                        <input type="email" name="mail">
+                    </div>
+                </div>
+                <div>
+                    <div class="m-20">
+                        <label for="phone">Phone No: <span class="clr-red">*</span></label>
+                        <input type="tel" name="phone" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="m-20">
+                        <label for="">Gender:<span class="clr-red">*</span></label>
+                        
+                            <label for="male" style="margin-left: 5px;">Male</label>
+                            <input type="radio" name="gender" required>
+                            <label for="female" style="margin-left: 5px;">Female</label>
+                            <input type="radio" name="gender" required>
+                        
+                    </div>
+                    <div class="m-20">
+                        <label for="" style="margin-right: 10px;">Course:<span class="clr-red">*</span></label>
+                        <select name="classes">
+                            <option value="Electronics">B.sc Electronics</option>
+                            <option value="physical">B.sc physical science</option>
+                            <option value="Journalism"> BA Journalism</option>
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="English">BA English</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="m-20">
+                        <label for="State">State:<span class="clr-red">*</span></label>
+                        <input type="text" name="state" required>
+                    </div>
+                    <div class="m-20">
+                        <label for="pin">Pin-Code:<span class="clr-red">*</span></label>
+                        <input type="text" name="pin" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="m-20">
+                        <label for="comments">Your Views:<span class="clr-red">*</span></label>
+                        <textarea name="comments"  cols="20" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="m-20">
+                    <div class="flex mel submit">
+                        <input type="submit" value="Register Now">
+                    </div>
+
+                </div>
+                
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

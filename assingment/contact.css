@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+body{
+    background:linear-gradient(rgba(0, 255, 208,0.5),white) ,url("contact_us.jfif");
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+
+    
+}
+.lft-contain{
+    width: 30%;
+    margin: 25px;
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+}
+.rgt-contain{
+    width: 45%;
+    margin: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.clr-ylw{
+    color: rgb(255, 0, 0);
+}
+.mr-rl-20{
+    margin: 5px 20px;
+    font-size: 30px;
+}
+.feed{
+    width: 320px ;
+    height: 30px;
+}
+.mr-10{
+    margin: 10px 5px ;
+}
+.bdr-5{
+    border-radius: 5px;
+    border: 0px;
+}

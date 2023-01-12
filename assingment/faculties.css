@@ -1,0 +1,123 @@
+.fts-10{
+    font-size: 15px;
+}
+.sty-no{
+    list-style: none;
+    padding:8px;
+    margin-bottom:2px ;
+}
+.first-h{
+    text-align: center; 
+    font-weight: bold;
+    background-color: #000360;
+    color: white;
+    height: 40px;
+    margin: 10px;
+}
+.dis-n{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241 ,240 ,240 ,.571);
+}
+.justify{
+    text-align: justify;
+}
+.d-flex{
+    justify-content: center;
+}
+
+.sty-no:hover{
+    background-color: rgb(233, 233, 233);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.flex-c{
+    display:flex;
+    justify-content: center;
+}
+.about{
+    font-size: 16px;
+}
+.logo-s{
+    list-style: none;
+    margin: 10px 15px;
+}
+.logo-s img{
+    width: 60px;
+}
+.faculty-tab{
+    background-color: rgba(241 ,240 ,240 ,.571);
+    border-radius: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.wid-100{
+    width: 100%;
+}
+.wid-au{
+    width: 95%;
+    margin: 20px;
+}
+.table-contain{
+    border: 1px solid rgb(95, 95, 95);
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+}
+.pad-30{
+    /* padding: 20px; */
+    padding: 1%;
+    border: 1px solid rgb(95, 95, 95);
+    border-collapse: collapse;
+}
+.bdr-sol{
+    padding: 1%;
+    border-collapse: collapse;
+    border: 1px solid rgb(95, 95, 95);
+    font-size: 15px;
+}
+.padding-15{
+    padding: 10px;
+}
+.wid-25{
+    width: 25%;
+}
+.wid-75{
+    width: 75%;
+}
+.tplft-20{
+    background-color: #495ee3;
+    position: relative;
+    float: right;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    border:#5e46e4 ;
+    vertical-align: middle;
+}
+.mar-10{
+    margin: 20px;
+}
+.flt-l{
+    position: relative;
+    float: right;
+}
+.pos-r3{
+    position: absolute;
+    right: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.pt-r30{
+    margin: 20px;
+}
+.gallery{
+    width: 33%;
+}
+.gallery img{
+    width: 100%;
+   
+}
+
